@@ -33,7 +33,7 @@ var training_datas= (function(){
 	"type":"imagePlusText",
 	"title":"財務報表:資產負債表 (Balance Sheet)",
 	"content":"要了解企業的狀況,一定要從財務數字來看,財務三大表其中之一,是資產負債表(Balance Sheet)。功能是讓所有閱讀者於瞭解企業在某個時間點上其擁有的資產,負債的狀況。 利用會計平衡原則,將交易科目分為“資產”和“負債及股東權益”兩大區塊,以特定日期的靜態企業情況為基準,濃縮成一張報表。",
-	"imagePath": "5.jpg"
+	"imagePath": "./components/trainingRoom_page/data/img/girl2.jpg"
     },
     {
 	"id":6,
@@ -46,21 +46,23 @@ var training_datas= (function(){
 	"type":"imagePlusText",
 	"title":"財務報表:現金流量表 (Cash Flow Statement)",             
 	"content":"要了解企業的狀況,一定要從財務數字來看,財務三大表其中之一,現金流量表,反映企業在一定會計期間現金和現金等價物流入和流出,主要功能是呈現企業短期內現金流動的狀況,這可反應償債的能力。 現金流量表所表達的是在一固定期間(通常是每季或每年)內,一家企業或機構的現金 (包含銀行存款) 增滅變動的情況。主要是想反映出資產負債表中各個項目對現金流量的影響,並根據其用途劃分為經營、投資及融資三個活動分類。",
-	"imagePath": "7.jpg"
+	"imagePath": "./components/trainingRoom_page/data/img/girl3.jpg"
     },
     {
 	"id":8,
 	"type":"imagePlusText",
 	"title":"債的效用",
 	"content":"現代企業營運,重要基礎財務概念就是借債,借債就是以某些事物抵押,去借錢來用。舉債是企業充實營運資金的重要方式。企業可以藉由借債,取得資金,去作各種投資,讓企業可以營運。借債與槓桿是同步的,企業負債佔總資產越多,槓桿比率就越高。",
-	"imagePath": "8.jpg"
+	"imagePath":  "./components/trainingRoom_page/data/img/girl4.jpg"
+
     },
     {
 	"id":9,
 	"type":"imagePlusText",
 	"title":"槓桿的效用",		
 	"content":"現代企業營運的重要工具就是借債,使用債務就是使用槓桿,其意義就是 用一塊錢(淨值),可以借到多少錢(負債)來用。如果企業負債是5,淨值是1,那槓桿就是負債/淨值=5/1=5倍。 槓桿會放大所有的效果,若槓桿比率是5倍,那企業賺錢可以多五倍,但賠錢也是賠五倍。",
-	"imagePath": "9.jpg"
+	"imagePath":  "./components/trainingRoom_page/data/img/girl5.jpg"
+
     },
     {
 	"id":10,
