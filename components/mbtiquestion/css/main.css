@@ -3,12 +3,14 @@ body {
 }
 
 body ul {
-  list-style-type: none;
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
 }
 
 input[name=mbtians] {
  	visibility: hidden;
- 	
+ 	display: none;
 }
 
 .mbti_btn {
@@ -90,4 +92,3 @@ input[name=mbtians] {
 	width: 85%;
 	padding-top: 5px;
 }
-
