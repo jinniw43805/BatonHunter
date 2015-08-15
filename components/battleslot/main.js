@@ -126,7 +126,7 @@ var showDialog = function(item) {
     var dDialog = $('#myModal');
 
     dDialog.modal({
-        backdrop: false,
+        backdrop: true,
         keyboard: false,
         show: true
     });
@@ -166,12 +166,18 @@ var saveResult = function(item) {
         .done(function(msg) {
             $('#myModal').modal('hide');
         });*/
+
+        // 4 secs hide the modal
+        setTimeout(function() {
+            $('#myModal').modal('hide');
+        }, 4000);
     }else{
         if (item == '小怪來襲')
             monster = "little";
         else
             monster = "big";
 
+        // 1 secs hide the modal
         setTimeout(function() {
             window.location.href = '../../battlepage.html?train=0' + "&monster=" + monster;
         }, 1000);
