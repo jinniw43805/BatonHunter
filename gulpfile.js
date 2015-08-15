@@ -80,6 +80,7 @@ gulp.task('browser', function () {
     server: {
       baseDir: './'
     },
+    port:8000,
     browser: 'default'
   });
 });
